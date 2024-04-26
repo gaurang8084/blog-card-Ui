@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: "Roboto";
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 217, 1, 0.62);
+}
+
+#card{
+    border-radius: 15px;
+    box-shadow:8px 8px 3px black;
+    border: 1px solid black;
+    height: 62%;
+    width: 368px;
+    background-color: antiquewhite;
+}
+
+#card-top{
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+#card-bottom{}
+
+h5{
+    position: relative;
+    top: 6px;
+    text-align: center;
+    font-weight:bold;
+    
+
+}
+
+#p-1{
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    left: 16px;
+    text-align:left
+}
+
+#p-2{
+    position: relative;
+    top: 55px;
+    left: 16px;
+    color: gray;
+}
+
+
+
+h2{
+    position: relative;
+    top: 40px;
+    left:16px ;
+    text-decoration:solid;
+}
+h2:hover{
+    color:  rgba(255, 217, 1, 0.62);
+}
+
+#author img{
+    position:relative;
+    top: 75px;
+    left: 15px;
+    height: 30px;
+
+}
+
+h6{
+    position: relative;
+    top: 50px;
+    left: 55px;
+    font-size:small;
+}
+
+
+#learn-path{
+    border-radius: 3px;
+    position: relative;
+    top: 15px;
+    left: 16px;
+    height: 4vh;
+    width: 21%;
+   background-color: rgb(174, 174, 9);
+
+}
